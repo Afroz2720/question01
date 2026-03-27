@@ -78,12 +78,12 @@ RENDERERS = {
 
 def main() -> None:
     st.set_page_config(
-        page_title="Question Generator",
+        page_title="Test Item Generator",
         page_icon="📝",
         layout="wide",
     )
 
-    st.title("📝 PDF Question Generator")
+    st.title("📝 Test Item Generator")
     st.markdown(
         "Upload a PDF, choose the question type, "
         "and generate MCQs, fill in the blanks, or short answers via OpenRouter."
